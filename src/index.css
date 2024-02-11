@@ -56,3 +56,13 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
+
+.mySwiper {
+  cursor: move;
+}
+.mySwiper img:hover {
+  cursor: pointer;
+  transition: 0.3s linear;
+  transform: scale(1.15);
+  border: 4px solid #ff6452;
+}
